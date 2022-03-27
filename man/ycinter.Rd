@@ -28,7 +28,7 @@
 }
 \value{
   An S4 Object, that can be easily converted into a list with
-  \code{\link{as.list}}
+  \code{\link{tolist}}
 }
 \description{
   Yield curve or zero-coupon bonds prices curve

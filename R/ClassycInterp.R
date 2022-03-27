@@ -392,7 +392,7 @@ setMethod (f = "getExtrapvalues",
                return(.Object@extrapvalues)
              })
 
-########################################################## Fonctions de l'interface
+########################################################## interface
 
 ycinter <- function(yM = NULL, p = NULL, matsin, matsout, 
                     method=c("NS", "SV", "SW", "HCSPL"), 
@@ -601,7 +601,7 @@ forwardrates <- function(.Object)
   return(ts(getFwdrates(.Object), deltat=t[2]-t[1]))
 }
 
-as.list <- function(.Object)
+tolist <- function(.Object)
 {
    y <- list(matsin = .Object@matsin, obs = .Object@observedvalues, method = .Object@method, typeres = .Object@typeres,
              coeff = .Object@coefficients, matsout = .Object@matsout, fitted =.Object@fittedvalues, fwdrates = .Object@fwdrates,
