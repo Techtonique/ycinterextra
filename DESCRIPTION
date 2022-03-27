@@ -5,12 +5,13 @@ Title: Yield curve or zero-coupon prices interpolation and
 Version: 0.2.0
 Date: 2022-03-28
 Author: T. Moudiki
+BugReports: https://github.com/Techtonique/ycinterextra/issues
 Maintainer: T. Moudiki <thierry.moudiki@gmail.com>
 Description: Yield curve or zero-coupon prices interpolation and extrapolation using the Nelson-Siegel, Svensson, Smith-Wilson models, and Hermite cubic splines.
-License: GPL-2 | GPL-3
+License: BSD_3_clause Clear + file LICENSE
 Depends: compiler, methods, randtoolbox
 Imports: graphics
-Collate: fonctions.R ClassycInterp.R NS.R NSS.R SW.R optimizers.R splines.R utils.R
+Collate: functions.R ClassycInterp.R NS.R NSS.R SW.R optimizers.R splines.R utils.R
 Packaged: 2013-12-18 02:46:52 UTC; Thierry
 NeedsCompilation: no
 Date/Publication: 2013-12-18 07:32:51
