@@ -1,8 +1,8 @@
-\name{as.list}
-\alias{as.list}
+\name{tolist}
+\alias{tolist}
 \title{Conversion to a list}
 \usage{
-  as.list(.Object)
+  tolist(.Object)
 }
 \arguments{
   \item{.Object}{An S4 object created by
@@ -33,7 +33,7 @@
  yc <- ycextra(p = p, matsin = u, matsout = t,
  method="SV", typeres="prices", UFR = 0.018)
 
- as.list(yc)
+ tolist(yc)
 }
 \author{
   Thierry Moudiki
