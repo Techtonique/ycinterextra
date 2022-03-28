@@ -7,7 +7,7 @@ Yield curve interpolation and extrapolation
 
 # Installing
 
-```
+```r
 # Enable universe(s) by techtonique
 options(repos = c(
   techtonique = 'https://techtonique.r-universe.dev',
@@ -19,13 +19,13 @@ install.packages('ycinterextra')
 
 Or
  
-```
+```r
 devtools::install_github("Techtonique/ycinterextra")
 ```
 
 # Quickstart
 
-```
+```r
 library(ycinterextra)
 ?ycinterextra::ycinter
 ?ycinterextra::ycextra
