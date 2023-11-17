@@ -1,6 +1,8 @@
 ycinterextra
 ============
 
+ALL THESE FUNCTIONS WILL BE AVAILABLE IN [https://github.com/Techtonique/esgtoolkit](https://github.com/Techtonique/esgtoolkit), AND THIS REPO WILL BE DELETED. 
+
 Yield curve interpolation and extrapolation
 
 <hr>
